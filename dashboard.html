@@ -1,11 +1,10 @@
-
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>ODO SHIPPING - داشبورد</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
   <style>
     @font-face {
       font-family: 'BNazanin';
@@ -16,12 +15,29 @@
     }
   </style>
 </head>
-<body class="bg-gray-100 text-gray-800">
-  <header class="bg-blue-900 text-white p-4">
-    <h1 class="text-center text-2xl font-bold">داشبورد ODO SHIPPING</h1>
+<body class="bg-gray-100 min-h-screen flex flex-col">
+  <header class="bg-blue-900 text-white p-4 shadow-lg sticky top-0 z-10">
+    <div class="text-center text-2xl font-bold">داشبورد ODO SHIPPING</div>
   </header>
-  <main class="p-4">
-    <p class="text-center text-lg">به سامانه خوش آمدید.</p>
+  <main class="flex-grow p-4 space-y-6">
+    <div class="text-center text-lg">به سامانه مدیریت حمل‌ونقل خوش آمدید.</div>
+    <div class="grid grid-cols-2 gap-4 text-center">
+      <div class="bg-white p-5 rounded shadow hover:shadow-md transition cursor-pointer">
+        مشاهده کانتینرها
+      </div>
+      <div class="bg-white p-5 rounded shadow hover:shadow-md transition cursor-pointer">
+        ثبت خسارت
+      </div>
+      <div class="bg-white p-5 rounded shadow hover:shadow-md transition cursor-pointer">
+        پرداخت هزینه
+      </div>
+      <div class="bg-white p-5 rounded shadow hover:shadow-md transition cursor-pointer">
+        پیگیری وضعیت
+      </div>
+    </div>
   </main>
+  <footer class="bg-blue-900 text-white p-3 text-center text-sm">
+    © 2025 ODO SHIPPING
+  </footer>
 </body>
 </html>
